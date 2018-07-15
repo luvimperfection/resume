@@ -1,348 +1,281 @@
 module.exports = {
   profile: {
-    name: '김우현',
-    description: 'Front-end developer',
-    dateOfBirth: '1996.11.05',
-    email: 'dngus242@gmail.com',
+    name: '박준호 (JoonHo Park)',
+    description: 'Android Developer',
+    dateOfBirth: '1990.11.27',
+    email: 'pjhjohn@gmail.com',
     links: [
-      {name: 'github', href: 'https://github.com/KimWooHyun'},
-      {name: 'portfolio', href: 'https://kimwoohyun.github.io/portfolio/'}
+      {name: 'Github', href: 'https://github.com/pjhjohn'}
     ]
   },
   introduction: `
-    2014년부터 Front-End 개발을 하고 있는 김우현입니다.<br />
-    마크업과 Vue.js를 이용한 Front-End 개발에 관해 관심이 많으며 최근에는 flex와 크로스 브라우징, 반응형 웹과 사용자 인터랙션에도 관심을 두고 있습니다.<br />
-    주로 사용하는 언어는 HTML, CSS, JavaScript 입니다.<br /><br />
-    최근에 Vue.js에 관심이 생겨 사내 도입을 시도하였고 Front-End 프레임워크에 관심을 가지게 되었습니다.<br />
-    이후 리뉴얼 프로젝트에서는 Vue.js의 SSR 프레임 워크인 Nuxt.js를 이용한 서비스를 제작하여 SPA 와 SSR 개발 경험을 하였습니다.<br />
-    Nuxt.js 프로젝트에서는 보다 시멘틱 한 웹에 중점을 두었으며, CSS 프레임 워크를 따로 두지 않고 CSS 전처리 도구인 LESS 로 개발하였습니다.<br /><br />
-    디자이너와는 스케치와 제플린을 활용하여 커뮤니케이션을 하였으며 결과물을 같이 확인 하며 실시간으로 반영하고 의견 조율을 하였습니다.<br /><br />
-    오픈소스에도 관심이 많습니다.<br />
-    처음에는 Nuxt.js 의 도큐먼트 오탈자와 예제 코드 수정 등 작은 이슈들을 처리하였고, github에 있는 여러 컴포넌트 라이브러리들을 둘러보면서 오픈소스에 대한 관심이 생겼습니다.<br />
-    그러다 최근에 사내에서 쓰고 있는 기능을 구현하는 도중, 라이브러리로 만들어 배포하면 어떨까 생각하게 되어 오픈소스로 배포하였습니다.<br />
-    이후 여러 나라의 사람들과 다양한 언어로 github을 통해 같이 살을 붙여나가고 있습니다.<br />
-    현재 vue-lunar-calendar  라는 한국 음력 달력 라이브러리로 배포되었으며 총 7명의 contributors, 6개의 언어로 되어있습니다.
+    2011년부터 안드로이드를 메인으로 개발을 계속해왔으며, DAU 300만 이상의 SDK 개발 및 운영 경험이 있습니다.<br/>
+    좋은 협업으로 인한 효율 향상과 빌드 및 배포 자동화 시스템을 포함한 커뮤니케이션 방법을 중요하게 생각합니다.<br/>
+    개개인의 참여가 스스로 이루어질 때 가장 좋은 결과가 나온다고 생각하며, 주도적으로 환경에 적응하는 편입니다.<br/>
+    지식의 접근성을 개인 노력의 부족으로 치부하지 않고 지식을 적극적으로 나누어 전체가 성장하는 것을 중요하게 생각합니다.<br/>
+    문제의 핵심을 해결하는 데 플랫폼이 제약이 되지 않도록, 안드로이드 뿐만 아니라 다양한 플랫폼에서의 개발경험 또한 보유하고 있습니다.<br/>
     `
   ,
-  contents: {
-    'Skill Set': [
-      {
-        'date': '(상급: 3, 중급: 2, 초급: 1)',
-        'title': '',
-        'contents': ['']
-      },
-      {
-        'date': 'Language',
-        'title': 'HTML5 (3) / CSS3 (3) / JavaScript (2) / Swift (2) / Python (2)',
-        'contents': ['']
-      },
-      {
-        'date': 'Framework',
-        'title': 'Vue.js (3) / Nuxt.js (3) / Django (2) / Flask (1) / Bootstrap (3)',
-        'contents': ['']
-      },
-      {
-        'date': 'Library',
-        'title': 'Webpack (2) / jQuery (2) / Less (2) / Axios (3) / Alamofire (3)',
-        'contents': ['']
-      },
-      {
-        'date': 'Dependency Manager',
-        'title': 'cocoapods (3) / npm (3) / yarn (3) / pip (3)',
-        'contents': ['']
-      }
-    ],
-    '개인 프로젝트': [
-      {
-        'date': '2017.07 - 현재',
-        'title': 'vue-lunar-calendar',
-        'contents': [
-          '- Vue.js component library',
-          '- <a href="https://github.com/KimWooHyun/vue-lunar-calendar">https://github.com/KimWooHyun/vue-lunar-calendar</a>',
-          '- 한국 음력 달력 라이브러리',
-          '- opensource',
-          '- 총 7명의 contributors, 6개의 언어'
-        ]
-      },
-      {
-        'date': '2017.08',
-        'title': 'WHLunarCalendar',
-        'contents': [
-          '- Swift library',
-          '- <a href="https://github.com/KimWooHyun/WHLunarCalendar">https://github.com/KimWooHyun/WHLunarCalendar</a>',
-          '- 한국 음력 달력 라이브러리',
-          '- opensource'
-        ]
-      }
-    ],
-    '개인 활동': [
-      {
-        'date': '2018.02 - 현재',
-        'title': 'Women Techmakers KR 2018',
-        'img': '/pa/wtm-logo.png',
-        'contents': [
-          '<strong>Women Techmakers KR 2018 오거나이저</strong>',
-          '- 행사준비',
-          '- 안내사이트 제작',
-          '- <a href="https://wtm-korea-2018.firebaseapp.com/">https://wtm-korea-2018.firebaseapp.com/</a>'
-        ]
-      },
-      {
-        'date': '2017.08 - 현재',
-        'title': 'DjangoCon KR 2018',
-        'img': '/pa/djangocon-logo.png',
-        'contents': [
-          '<strong>DjangoCon KR 2018 오거나이저</strong>',
-          '- 행사준비'
-        ]
-      },
-      {
-        'date': '2017.12',
-        'title': 'Do it! Vue.js',
-        'contents': [
-          'vue.js 관련 책 기술 검토 및 자문',
-          '서명: Do it! Vue.js 입문서',
-          '저자: 장기효',
-          '대상 독자: 프레임워크를 다뤄보지 않은 웹 개발 입문자, Vue.js를 배우고 싶은 대학생 & 퍼블리셔 & 실무자',
-          '책 내용: 프론트엔드 개발 프레임워크인 Vue.js 소개, 뷰 기술요소 학습, 뷰를 이용한 실전 애플리케이션 제작'
-        ]
-      },
-      {
-        'date': '2017.12',
-        'title': 'Vue.js Korea Meetup3',
-        'contents': [
-          'Vue.js Korea 3번째 밋업 스태프 및 행사 총괄'
-        ]
-      },
-      {
-        'date': '2017.11',
-        'title': 'GDG DevFest',
-        'contents': [
-          'GDG DevFest 스태프',
-          '- 안내사이트 제작 참여',
-          '- <a href="https://devfest17-seoul.firebaseapp.com/">https://devfest17-seoul.firebaseapp.com/</a>'
-        ]
-      },
-      {
-        'date': '2017.09',
-        'title': '9XD 해커톤',
-        'contents': [
-          '9XD 해커톤 "내꺼만들기, 내꺼톤" 참가',
-          '- Vue.js 전파',
-          '- 팀 주제: 불만',
-          '- 본인의 불만을 말하고 피드백을 받을 수 있는 게시판 형태의 웹 서비스 "불만투고" 제작 및 배포'
-        ]
-      },
-      {
-        'date': '2017.08',
-        'title': 'GDG Web Tech',
-        'contents': [
-          'GDG Web Tech 발표',
-          '- Vue.js 관련 발표',
-          '- <a href="https://www.slideshare.net/ssuserd3aacb/vue-js-79169830">https://www.slideshare.net/ssuserd3aacb/vue-js-79169830</a>'
-        ]
-      },
-      {
-        'date': '2017.08',
-        'title': 'Vue.js Korea Meetup2',
-        'contents': [
-          'vue.js Korea 2번째 밋업 스태프'
-        ]
-      },
-      {
-        'date': '2017.07',
-        'title': 'GDG Korea Campus summer party',
-        'contents': [
-          'GDG Korea Campus 스태프',
-          '- 행사 준비',
-          '- 안내사이트 제작 참여',
-          '- <a href="https://gdgsummerparty.firebaseapp.com">https://gdgsummerparty.firebaseapp.com</a>'
-        ]
-      }
-    ],
-    '학력 사항': [
-      {
-        'date': '2016 - 현재',
-        'title': '한국방송통신대학교',
-        'contents': ['컴퓨터과학과 재학중']
-      },
-      {
-        'date': '2012 - 2015',
-        'title': '미림여자정보과학고등학교 (미림 마이스터고)',
-        'contents': ['인터랙티브 미디어과 졸업']
-      }
-    ]
-  },
   summary: {
     '경력 요약': [
       {
-        'date': ['2018.04', '현재'],
-        'title': 'Spoqa (스포카)',
+        'date': ['2017.01', '현재'],
+        'title': '(주) 사운들리',
         'contents': [
-          '주 - Front-end 개발'
+          '메인 - Android SDK 개발',
+          '서브 - Productivity Admin'
         ]
       },
       {
-        'date': ['2016.01', '2018.01'],
-        'title': 'ONE MOMENT (원모먼트)',
+        'date': ['2015.03', '2017.02'],
+        'title': '서울대학교 운동연구실',
         'contents': [
-          '주 - Front-end 개발',
-          '서브 - Swift, Django 개발'
-        ]
-      },
-      {
-        'date': ['2014.12', '2016.01'],
-        'title': 'ATEAM VENTURES (에이팀벤쳐스)',
-        'contents': [
-          '주 - Front-end 개발',
-          '서브 - Django, Flask 개발'
+          '<strong>컴퓨터공학 석사</strong>',
+          '메인 - Drone Trajectory Optimization',
+          '서브 - Hubo Controller'
         ]
       }
     ]
   },
   detailContents: {
-    'ONE MOMENT (원모먼트)': {
-      'date': '2016.01 - 2018.01',
-      'info': '90분 당일 꽃배달 서비스 “원모먼트 플라워” 를 서비스 중인 스타트업.',
+    '(주) 사운들리': {
+      'date': '2017.01 - 현재',
+      'info': '비가청 음파를 수신하는 Android SDK 를 이용한 다양한 서비스를 진행하는 스타트업',
       'service': [
-        'Web<br /> - <a href="https://1moment.co.kr/">https://1moment.co.kr/</a> <br /> - 현재 Vue.js (SPA)로 개발된 사이트<br /><br />',
-        'iOS App<br /> - <a href="https://goo.gl/jP2ZYR">https://goo.gl/jP2ZYR</a>'
+        '<strong>Bitsound SDK</strong><br/> - Homepage: <a href="http://bitsound.io/">http://bitsound.io/</a> <br/> - Android SDK GitHub: <a href="https://github.com/Soundlly/BitsoundSDK-Android">https://github.com/Soundlly/BitsoundSDK-Android</a><br/> - Android SDK Documents: <a href="https://docs.bitsound.io/docs/android-overview">https://docs.bitsound.io/docs/android-overview</a><br/><br/>',
       ],
       'project': {
         'project': [
           {
-            'date': '2017.10 - 2018.01',
-            'title': 'Nuxt.js 도입 및 SSR 지원',
+            'date': '2017.01 - 현재',
+            'title': 'Bitsound Android SDK',
             'contents': [
-              '원모먼트 서비스 사이트 전체 리뉴얼',
-              `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 정기구독 리스트 /  정기구독 등록 / 주문 / 주문 확인 / 마이페이지 - 기념일 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 적립금  / 마이페이지 - 간편결제 카드 관리 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
-              `,
-              '- Nuxt.js 도입 및 SSR 지원',
-              '- css 프레임워크 제거 및 LESS 도입',
-              '- 그리드 시스템 개발',
-              '- 시멘틱 웹 표준 준수',
-              '- axios 를 활용한 api call',
-              '- PM2, ecosystem을 이용한 배포 자동화',
-              '- 기여도 : 100%, 단독진행',
-              'stack: Vue.js, Nuxt.js, Less'
+              '<strong>Bitsound Android SDK 구현 및 유지보수</strong>',
+              '설계 / 구현 / 테스트 / 배포 / 문서화 / 버전관리 / 이슈 트래킹 / 샘플 및 개발 가이드 / 기술지원 / 성능 개선',
+              '<br/>',
+              '- Android O 지원',
+              '- 기존 파편화된 Soundlly SDK 통합 (멀티 모듈)',
+              '- 외부 의존성 최소화',
+              '- 실기기 테스트를 위한 디바이스 컨트롤러 구축 (FCM)',
+              '- 버전 관리 및 트래킹을 위한 스크립트 작성 (Groovy)',
+              '- 커스텀 기능을 한 번에 빌드하여 각각 제공 (Groovy)',
+              '- API 기능 동작 테스트앱 구현 (Kotlin, Firebase, Rx)',
+              '- 실사용 테스트앱 구현 (Kotlin, Firebase, Rx)',
+              '- SDK 동작 모니터링 (Kibana)',
+              '- 기여도: 90%, 대부분 단독진행',
+              'Stack: Java, Kotlin, Firebase, RxAndroid, ...'
             ]
           },
           {
-            'date': '2017.02 - 2017.03',
-            'title': 'Vue.js 도입',
+            'date': '2018.06',
+            'title': 'KT 로드쇼 LTE 시연앱',
             'contents': [
-              '원모먼트 서비스 사이트 전체 리뉴얼',
-              `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 정기구독 리스트 /  정기구독 등록 / 적립금 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
-              `,
-              '- Vue.js (SPA) 도입',
-              '- 비동기 처리를 이용한 서비스 속도 개선',
-              '- vue-resource 를 활용한 api call',
-              '- 기여도 : 45%',
-              'stack: Vue.js, Bootstrap 4, Bootstrap 3, jQuery'
+              '<strong>KT 로드쇼 LTE 시연앱 개발 및 문서화</strong>',
+              'UI 전체 / 포그라운드 서비스 동작',
+              '<br/>',
+              '- Android P 지원(Jetpack)',
+              '- APN 무료망 전환 프로토콜 연동',
+              '- 신호 수신에 따른 망 전환',
+              '- 기여도: 100%, 단독진행',
+              'Stack: Kotlin, RxAndroid, Bitsound SDK'
             ]
           },
           {
-            'date': '2016.06 - 2017.11',
-            'title': 'iOS App 런칭',
+            'date': '2017.09 - 2018.05',
+            'title': '사운들리 기술블로그',
             'contents': [
-              'iOS App 런칭',
-              `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 주문 / 주문 확인 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 채용 / 회사소개 / 기획전
-              `,
-              '- Auto Layout을 이용한 반응형 앱 개발',
-              '- iTunes Connect 배포 및 버전 관리',
-              '- cocoapods 를 활용한 라이브러리 디펜던시 관리',
-              '- alamofire 를 활용한 api call',
-              '- 기여도 : 100%, 단독진행',
-              'stack: Swift, cocoapods'
-            ]
-          },
-          {
-            'date': '2016.01 - 2016.03',
-            'title': '관리자 페이지',
-            'contents': [
-              '원모먼트 서비스 관리자 페이지 제작 및 유지보수',
-              `
-              - 작업 리스트 : 
-              퀵사 연동 / 주문 내역 (운영팀/플라워팀) / 퀵 주문 내역 / 주문 리포트 / 기념일 리포트 / 기획전 생성 페이지
-              `,
-              '- Django template을 이용한 front-end 개발',
-              '- 기여도 : 30%',
-              'stack: Django'
-            ]
-          },
-          {
-            'date': '2016.01 - 2016.03',
-            'title': '웹 서비스 런칭',
-            'contents': [
-              '원모먼트 서비스 런칭',
-              `
-              - 작업 리스트 : 
-              메인 / 상품 리스트 / 상품 상세 / 상품 리뷰  / 카테고리 / 주문 / 주문 확인 / 마이페이지 - 주문리스트 / 마이페이지 - 주문상세 / 마이페이지 - 프로필 / 마이페이지 - 프로필 수정 / 마이페이지 - 주소록 리스트 / 마이페이지 - 주소록 / FAQ / 이용약관 / 회사소개
-              `,
-              '- Django template을 이용한 front-end 개발',
-              '- 기여도 : 100%, 단독진행',
-              'stack: HTML5, CSS3, JavaScript, jQuery, Django'
-            ]
-          }
-        ]
-      }
-    },
-    'ATEAM VENTURES (에이팀벤쳐스)': {
-      'date': '2014.12 - 2016.01',
-      'info': '3D Printer 공유 플랫폼 사이트 “ShapEngine” 을 서비스 중인 스타트업.',
-      'service': [
-        `Web<br />
-        <span style="font-weight:bold">shapEngine</span><br />
-        - 3D Printer를 보유한 사람과 3D Modeling 도면을 보유한 사람을 매칭해 주는 중개 플랫폼<br />
-        - <a href="https://shapengine.com/">https://shapengine.com/</a><br /><br />
-        <span style="font-weight:bold">creatable labs</span><br />
-        - 자사 3D Printer 인 creatable 시리즈 판매 사이트<br />
-        - <a href="https://creatablelabs.com/">https://creatablelabs.com/</a>`
-      ],
-      'project': {
-        'project': [
-          {
-            'date': '2015.07 - 2016.01',
-            'title': 'shapEngine 웹 서비스 리뉴얼',
-            'contents': [
-              'shapEngine 웹 서비스 리뉴얼',
-              '- 작업 리스트 : 메인 / 프린터 등록 / 채팅 ',
-              '- Django로 리팩토링',
-              '- 기여도 : 25%',
-              'stack: Django, Jinja2, HTML5, CSS3, JavaScript'
-            ]
-          },
-          {
-            'date': '2015.06 - 2015.06',
-            'title': 'creatable labs 웹 서비스 제작',
-            'contents': [
-              'creatable labs 웹 서비스 제작',
-              '- 작업 리스트 : 블로그 페이지 제작',
-              '- 워드프레스로 제작',
-              '- 기여도 : 10%',
-              'stack: HTML5, CSS3'
-            ]
-          },
-          {
-            'date': '2014.12 - 2015.06',
-            'title': 'shapEngine 웹 서비스 제작',
-            'contents': [
-              'shapEngine 웹 서비스 제작',
-              '- 작업 리스트 : 메인 / 프린터 등록 / 채팅',
-              '- 3D Printer 를 보유 한 사람이 프린터를 등록 할 수 있는 프로세스 개발',
-              '- Jinja2을 이용한 front-end 개발',
-              '- 기여도 : 25%',
-              'stack: Flask, Jinja2, HTML5, CSS3, JavaScript'
+              '<strong>개발자 스터디 활성화를 위한 기술블로그 구현 및 운영</strong>',
+              'UI 전체 / 디자인 / 페이스북 공유 / 댓글 (DISQUS)',
+              '<br/>',
+              '- Jekyll on GitHub Pages',
+              '- 기여도: 100%, 단독진행',
+              'Stack: Ruby, Jekyll, ...'
             ]
           }
         ]
       }
     }
+  },
+  contents: {
+    '상세 역량': [
+      {
+        'date': 'Languages',
+        'title': '사용 언어 (숙련도 순)',
+        'contents': [
+          '<strong>상</strong> : Kotlin / Java / Python / JavaScript(ES6)',
+          '<strong>중</strong> : HTML / CSS / SASS / Ruby / C / C++',
+          '<strong>하</strong> : Ocaml / Scheme / Action Script',
+          '그외 관심 : Scala / TypeScript / Rust',
+        ]
+      },
+      {
+        'date': 'Frameworks',
+        'title': '사용 프레임워크 (숙련도 순)',
+        'contents': [
+          '<strong>상</strong> : Android',
+          '<strong>중</strong> : Django / Rails / Jekyll',
+          '<strong>하</strong> : Processing',
+          '그외 관심 : TensorFlow',
+        ]
+      },
+      {
+        'date': 'Libraries',
+        'title': '사용 라이브러리 (영역별 숙련도 순)',
+        'contents': [
+          '<strong>Android</strong>',
+          'Google: ConstraintLayout / DataBinding / AAC / ...',
+          'Firebase: Analytics / Authentication / Cloud Messaging / Firestore / Crashlytics / Remote Config',
+          'Third Party: RxAndroid / Retrofit2 / OkHttp3 / Stetho / Gson / Lottie / Glide / Picasso / Timber / OneSignal / ...',
+          '<strong>FrontEnd</strong>',
+          'React / Redux / Material UI / ESLint / Webpack / PostCSS / jQuery / ...',
+          '<strong>Backend</strong>',
+          'PEP8 / Faker / MailChimp / Slacker / ...',
+          '그외 관심 : Android JetPack / Realm / Redux Saga'
+        ]
+      },
+      {
+        'date': 'Tools / System',
+        'title': '사용 툴 및 시스템 (빈도 순)',
+        'contents': [
+          '<strong>상</strong> : Git(GitKraken) / GitHub / AndroidStudio / PyCharm / Slack / Asana / Confluence / Papaly / ...',
+          '<strong>중</strong> : Kibana / Zeplin / Sublime Text / Atom / AWS / Circle CI / Notion / ...',
+          '<strong>하</strong> : IntelliJ / WebStorm / Postman / Vim / Jenkins / ...',
+          '그외 관심 : JIRA / VSCode / Docker / Additor',
+        ]
+      },
+      {
+        'date': 'Design',
+        'title': '사용 디자인 (개발 숙련도 순)',
+        'contents': [
+          '<strong>상</strong> : Material Design (Android) / Bootstrap 3',
+          '<strong>중</strong> : Material UI (React) / Materialize.css (CSS)',
+          '<strong>하</strong> : Atlassian / Spectre',
+          '그외 관심 : Typography / Editorial Design',
+        ]
+      },
+    ],
+    '기타 경력 및 개인 프로젝트': [
+      {
+        'date': '2017.08 - 현재',
+        'title': '마인딩',
+        'contents': [
+          '마음습관 형성 서비스 "마인딩" 개발 및 기술자문<br/><br/>',
+          '- Homepage (<a href="https://minding.today/">Link</a>)',
+          '- PlayStore (<a href="https://play.google.com/store/apps/details?id=today.minding">Link</a>)',
+          '- 프로젝트 초기 설계 및 스택 선정',
+          '- 코드 리뷰 및 기술 자문',
+          '- Stack(Android): Kotlin, RxAndroid, Firebase, AAC, MVVM, Databinding',
+          '- Stack(Web): Django (+ REST Framework), React + Redux, AWS',
+        ]
+      },
+      {
+        'date': '2017.02 - 2017.03',
+        'title': 'Kotlin Device Intel',
+        'contents': [
+          '테스트용 단말의 모델명, OS 버전 등 여러 정보를 쉽게 보여주는 앱<br/><br/>',
+          '- PlayStore (<a href="https://play.google.com/store/apps/details?id=io.pjhjohn.kotlin.deviceintel">Link</a>)',
+          '- GitHub (<a href="https://github.com/pjhjohn/kotlin-device-intel">Link</a>)',
+          '- Open Source (1 Contributor)'
+        ]
+      },
+      {
+        'date': '2016.07 - 2016.11',
+        'title': '삼천원',
+        'contents': [
+          '문화예술 플랫폼 "삼천원" 개발<br/><br/>',
+          '- 웹사이트 (<a href="https://3000won.com/">Link</a>)',
+          '- 프로젝트 설계 및 팀 리딩',
+          '- 기여도: 60%, 4인 개발 (기간 범위 기준)',
+          '- Stack(front-end): React + Redux on Express',
+          '- Stack(back-end): Django REST Framework'
+        ]
+      },
+      {
+        'date': '2015.04 - 2016.01',
+        'title': 'JSONPlaceholder Client',
+        'contents': [
+          'React & Redux REST API Boilerplate<br/><br/>',
+          '- GitHub (<a href="https://github.com/pjhjohn/jsonplaceholder-client">Link</a>)',
+          '- JSONPlaceholder Fack REST API 기반(<a href="http://jsonplaceholder.typicode.com/">Link</a>)',
+          '- Open Source (4 Contributors)'
+        ]
+      },
+      {
+        'date': '2015.04 - 2016.01',
+        'title': 'Papyruth',
+        'contents': [
+          '서울대학교 강의평가 서비스<br/><br/>',
+          '- <del>PlayStore (<a href="https://play.google.com/store/apps/details?id=com.papyruth.android">Link</a>): 서비스 종료</del>',
+          '- GitHub (<a href="https://github.com/pjhjohn/papyruth-android">Link</a>)',
+          '- 안드로이드 프로젝트 구현',
+          '- 기여도: 60%, 2인 개발'
+        ]
+      }
+    ],
+    '개인 활동': [
+      {
+        'date': '2018.02.02',
+        'title': 'GDG Korea Android LT',
+        'contents': [
+          'GDG Korea Android Lightening Talk 발표',
+          '- 행사(<a href="https://sites.google.com/view/gdg-and-2018-lt/">Link</a>)',
+          '- 발표자료(<a href="https://speakerdeck.com/pjhjohn/sdk-gaebaljaro-salanamneun-beob">Link</a>)'
+        ]
+      },
+      {
+        'date': '2017, 2018',
+        'title': 'Google I/O Extended',
+        'contents': [
+          '2017, 2018 스태프'
+        ]
+      },
+      {
+        'date': '2016.11',
+        'title': '시티즌맵',
+        'contents': [
+          '집회 예정 장소의 위치정보 및 현재상황 제보 플랫폼',
+          '- 구글 검색(<a href="https://goo.gl/dsXpxt">Link</a>)',
+          '- 개발 참여',
+        ]
+      },
+      {
+        'date': '2016.09 - 현재',
+        'title': '1일 1인디',
+        'contents': [
+          '인디 뮤지션을 알리기 위한 페이스북 페이지 운영',
+          '- 페이스북 페이지(<a href="https://www.facebook.com/indieperday/">Link</a>)',
+          '- 아티스트 / 레이블 승인 후 페이지에 게시'
+        ]
+      },
+      {
+        'date': '2014.04 - 현재',
+        'title': '멋쟁이 사자처럼',
+        'contents': [
+          '2기 : 서울대&연세대 튜터',
+          '&nbsp;&nbsp;- 전체 커리큘럼 및 수업자료 제작',
+          '3기 : 중앙 운영진',
+          '4기 : 서울대학교 운영진',
+          '&nbsp;&nbsp;- 자체 커리큘럼 및 수업자료 제작, 수업 진행',
+          '5기, 6기 : 서울대학교 운영진 고문',
+        ]
+      }
+    ],
+    '학력 사항': [
+      {
+        'date': '2015 - 2017',
+        'title': '서울대학교 석사',
+        'contents': ['운동연구실']
+      },
+      {
+        'date': '2009 - 2015',
+        'title': '서울대학교 학사',
+        'contents': ['컴퓨터공학 주전공', '전기공학 부전공']
+      },
+      {
+        'date': '2006 - 2009',
+        'title': '상문고등학교',
+        'contents': ['-']
+      }
+    ]
   }
 };
