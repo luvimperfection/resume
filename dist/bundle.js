@@ -9417,7 +9417,7 @@ module.exports = {
     '(주) 사운들리': {
       'date': '2017.01 - 현재',
       'info': '비가청 음파를 수신하는 Android SDK 를 이용한 다양한 서비스를 진행하는 스타트업',
-      'service': ['<strong>Bitsound SDK</strong><br/> - Homepage: <a href="http://bitsound.io/">http://bitsound.io/</a> <br/> - Android SDK GitHub: <a href="https://github.com/Soundlly/BitsoundSDK-Android">https://github.com/Soundlly/BitsoundSDK-Android</a><br/> - Android SDK Documents: <a href="https://docs.bitsound.io/docs/android-overview">https://docs.bitsound.io/docs/android-overview</a><br/><br/>'],
+      'service': ['<strong>Bitsound SDK</strong><br/> - Homepage: <a href="http://bitsound.io/" target="_blank">http://bitsound.io/</a> <br/> - Android SDK GitHub: <a href="https://github.com/Soundlly/BitsoundSDK-Android" target="_blank">https://github.com/Soundlly/BitsoundSDK-Android</a><br/> - Android SDK Documents: <a href="https://docs.bitsound.io/docs/android-overview" target="_blank">https://docs.bitsound.io/docs/android-overview</a><br/><br/>'],
       'project': {
         'project': [{
           'date': '2017.01 - 현재',
@@ -9460,28 +9460,28 @@ module.exports = {
     '기타 경력 및 개인 프로젝트': [{
       'date': '2017.08 - 현재',
       'title': '마인딩',
-      'contents': ['마음습관 형성 서비스 "마인딩" 개발 및 기술자문<br/><br/>', '- Homepage (<a href="https://minding.today/">Link</a>)', '- PlayStore (<a href="https://play.google.com/store/apps/details?id=today.minding">Link</a>)', '- 프로젝트 초기 설계 및 스택 선정', '- 코드 리뷰 및 기술 자문', '- Stack(Android): Kotlin, RxAndroid, Firebase, AAC, MVVM, Databinding', '- Stack(Web): Django (+ REST Framework), React + Redux, AWS']
+      'contents': ['마음습관 형성 서비스 "마인딩" 개발 및 기술자문<br/><br/>', '- Homepage (<a href="https://minding.today/" target="_blank">Link</a>)', '- PlayStore (<a href="https://play.google.com/store/apps/details?id=today.minding" target="_blank">Link</a>)', '- 프로젝트 초기 설계 및 스택 선정', '- 코드 리뷰 및 기술 자문', '- Stack(Android): Kotlin 100%, RxAndroid, Firebase, AAC, MVVM, Databinding', '- Stack(Web): Django (+ REST Framework), React + Redux, AWS']
     }, {
       'date': '2017.02 - 2017.03',
       'title': 'Kotlin Device Intel',
-      'contents': ['테스트용 단말의 모델명, OS 버전 등 여러 정보를 쉽게 보여주는 앱<br/><br/>', '- PlayStore (<a href="https://play.google.com/store/apps/details?id=io.pjhjohn.kotlin.deviceintel">Link</a>)', '- GitHub (<a href="https://github.com/pjhjohn/kotlin-device-intel">Link</a>)', '- Open Source (1 Contributor)']
+      'contents': ['테스트용 단말의 모델명, OS 버전 등 여러 정보를 쉽게 보여주는 앱<br/><br/>', '- PlayStore (<a href="https://play.google.com/store/apps/details?id=io.pjhjohn.kotlin.deviceintel" target="_blank">Link</a>)', '- GitHub (<a href="https://github.com/pjhjohn/kotlin-device-intel" target="_blank">Link</a>)', '- Open Source (1 Contributor)']
     }, {
       'date': '2016.07 - 2016.11',
       'title': '삼천원',
-      'contents': ['문화예술 플랫폼 "삼천원" 개발<br/><br/>', '- 웹사이트 (<a href="https://3000won.com/">Link</a>)', '- 프로젝트 설계 및 팀 리딩', '- 기여도: 60%, 4인 개발 (기간 범위 기준)', '- Stack(front-end): React + Redux on Express', '- Stack(back-end): Django REST Framework']
+      'contents': ['문화예술 플랫폼 "삼천원" 개발<br/><br/>', '- 웹사이트 (<a href="https://3000won.com/" target="_blank">Link</a>)', '- 프로젝트 설계 및 팀 리딩', '- 기여도: 60%, 4인 개발 (기간 범위 기준)', '- Stack(front-end): React + Redux on Express', '- Stack(back-end): Django REST Framework']
     }, {
       'date': '2015.04 - 2016.01',
       'title': 'JSONPlaceholder Client',
-      'contents': ['React & Redux REST API Boilerplate<br/><br/>', '- GitHub (<a href="https://github.com/pjhjohn/jsonplaceholder-client">Link</a>)', '- JSONPlaceholder Fack REST API 기반(<a href="http://jsonplaceholder.typicode.com/">Link</a>)', '- Open Source (4 Contributors)']
+      'contents': ['React & Redux REST API Boilerplate<br/><br/>', '- GitHub (<a href="https://github.com/pjhjohn/jsonplaceholder-client" target="_blank">Link</a>)', '- JSONPlaceholder Fake REST API 기반(<a href="http://jsonplaceholder.typicode.com/" target="_blank">Link</a>)', '- Open Source (4 Contributors)']
     }, {
       'date': '2015.04 - 2016.01',
       'title': 'Papyruth',
-      'contents': ['서울대학교 강의평가 서비스<br/><br/>', '- <del>PlayStore (<a href="https://play.google.com/store/apps/details?id=com.papyruth.android">Link</a>): 서비스 종료</del>', '- GitHub (<a href="https://github.com/pjhjohn/papyruth-android">Link</a>)', '- 안드로이드 프로젝트 구현', '- 기여도: 60%, 2인 개발']
+      'contents': ['서울대학교 강의평가 서비스<br/><br/>', '- <del>PlayStore (<a href="https://play.google.com/store/apps/details?id=com.papyruth.android" target="_blank">Link</a>): 서비스 종료</del>', '- GitHub (<a href="https://github.com/pjhjohn/papyruth-android" target="_blank">Link</a>)', '- 안드로이드 프로젝트 구현', '- 기여도: 60%, 2인 개발']
     }],
     '개인 활동': [{
       'date': '2018.02.02',
       'title': 'GDG Korea Android LT',
-      'contents': ['GDG Korea Android Lightening Talk 발표', '- 행사(<a href="https://sites.google.com/view/gdg-and-2018-lt/">Link</a>)', '- 발표자료(<a href="https://speakerdeck.com/pjhjohn/sdk-gaebaljaro-salanamneun-beob">Link</a>)']
+      'contents': ['GDG Korea Android Lightening Talk 발표', '- 행사(<a href="https://sites.google.com/view/gdg-and-2018-lt/" target="_blank">Link</a>)', '- 발표자료(<a href="https://speakerdeck.com/pjhjohn/sdk-gaebaljaro-salanamneun-beob" target="_blank">Link</a>)']
     }, {
       'date': '2017, 2018',
       'title': 'Google I/O Extended',
@@ -9489,11 +9489,11 @@ module.exports = {
     }, {
       'date': '2016.11',
       'title': '시티즌맵',
-      'contents': ['집회 예정 장소의 위치정보 및 현재상황 제보 플랫폼', '- 구글 검색(<a href="https://goo.gl/dsXpxt">Link</a>)', '- 개발 참여']
+      'contents': ['집회 예정 장소의 위치정보 및 현재상황 제보 플랫폼', '- 구글 검색(<a href="https://goo.gl/dsXpxt" target="_blank">Link</a>)', '- 개발 참여']
     }, {
       'date': '2016.09 - 현재',
       'title': '1일 1인디',
-      'contents': ['인디 뮤지션을 알리기 위한 페이스북 페이지 운영', '- 페이스북 페이지(<a href="https://www.facebook.com/indieperday/">Link</a>)', '- 아티스트 / 레이블 승인 후 페이지에 게시']
+      'contents': ['인디 뮤지션을 알리기 위한 페이스북 페이지 운영', '- 페이스북 페이지(<a href="https://www.facebook.com/indieperday/" target="_blank">Link</a>)', '- 아티스트 / 레이블 승인 후 페이지에 게시']
     }, {
       'date': '2014.04 - 현재',
       'title': '멋쟁이 사자처럼',
