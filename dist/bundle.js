@@ -9422,11 +9422,11 @@ module.exports = {
         'project': [{
           'date': '2017.01 - 현재',
           'title': 'Bitsound Android SDK',
-          'contents': ['<strong>Bitsound Android SDK 구현 및 유지보수</strong>', '설계 / 구현 / 테스트 / 배포 / 문서화 / 버전관리 / 이슈 트래킹 / 샘플 및 개발 가이드 / 기술지원 / 성능 개선', '<br/>', '- Android O 지원', '- 기존 파편화된 Soundlly SDK 통합 (멀티 모듈)', '- 외부 의존성 최소화', '- 실기기 테스트를 위한 디바이스 컨트롤러 구축 (FCM)', '- 버전 관리 및 트래킹을 위한 스크립트 작성 (Groovy)', '- 커스텀 기능을 한 번에 빌드하여 각각 제공 (Groovy)', '- API 기능 동작 테스트앱 구현 (Kotlin, Firebase, Rx)', '- 실사용 테스트앱 구현 (Kotlin, Firebase, Rx)', '- SDK 동작 모니터링 (Kibana)', '- 기여도: 90%, 대부분 단독진행', 'Stack: Java, Kotlin, Firebase, RxAndroid, ...']
+          'contents': ['<strong>Bitsound Android SDK 구현 및 유지보수</strong>', '설계 / 구현 / 테스트 / 배포 / 문서화 / 버전관리 / 이슈 트래킹 / 샘플 및 개발 가이드 / 기술지원 / 성능 개선', '<br/>', '- Android O 지원', '- 기존 파편화된 Soundlly SDK 통합 (멀티 모듈)', '- 외부 의존성 최소화', '- 실기기 테스트를 위한 디바이스 컨트롤러 구축 (FCM)', '- 버전 관리 및 트래킹을 위한 스크립트 작성 (Groovy)', '- 커스텀 기능을 한 번에 빌드하여 각각 제공 (Groovy)', '- API 기능 동작 테스트앱 구현 (Kotlin, Firebase, RxJava2)', '- 실사용 테스트앱 구현 (Kotlin, Firebase, RxJava2)', '- SDK 동작 모니터링 (Kibana)', '- 기여도: 90%, 대부분 단독진행', 'Stack: Java, Kotlin, Firebase, RxJava2, ...']
         }, {
           'date': '2018.06',
           'title': 'KT 로드쇼 LTE 시연앱',
-          'contents': ['<strong>KT 로드쇼 LTE 시연앱 개발 및 문서화</strong>', 'UI 전체 / 포그라운드 서비스 동작', '<br/>', '- Android P 지원(Jetpack)', '- APN 무료망 전환 프로토콜 연동', '- 신호 수신에 따른 망 전환', '- 기여도: 100%, 단독진행', 'Stack: Kotlin, RxAndroid, Bitsound SDK']
+          'contents': ['<strong>KT 로드쇼 LTE 시연앱 개발 및 문서화</strong>', 'UI 전체 / 포그라운드 서비스 동작', '<br/>', '- Android P 지원(Jetpack)', '- APN 무료망 전환 프로토콜 연동', '- 신호 수신에 따른 망 전환', '- 기여도: 100%, 단독진행', 'Stack: Kotlin, RxJava2, Bitsound SDK']
         }, {
           'date': '2017.09 - 2018.05',
           'title': '사운들리 기술블로그',
@@ -9447,7 +9447,7 @@ module.exports = {
     }, {
       'date': 'Libraries',
       'title': '사용 라이브러리 (영역별 숙련도 순)',
-      'contents': ['<strong>Android</strong>', 'Google: ConstraintLayout / DataBinding / AAC / ...', 'Firebase: Analytics / Authentication / Cloud Messaging / Firestore / Crashlytics / Remote Config', 'Third Party: RxAndroid / Retrofit2 / OkHttp3 / Stetho / Gson / Lottie / Glide / Picasso / Timber / OneSignal / ...', '<strong>FrontEnd</strong>', 'React / Redux / Material UI / ESLint / Webpack / PostCSS / jQuery / ...', '<strong>Backend</strong>', 'PEP8 / Faker / MailChimp / Slacker / ...', '그외 관심 : Android JetPack / Realm / Redux Saga']
+      'contents': ['<strong>Android</strong>', 'Google: ConstraintLayout / DataBinding / AAC / ...', 'Firebase: Analytics / Authentication / Cloud Messaging / Firestore / Crashlytics / Remote Config', 'Third Party: RxJava2 / Retrofit2 / OkHttp3 / Stetho / Gson / Lottie / Glide / Picasso / Timber / OneSignal / ...', '<strong>FrontEnd</strong>', 'React / Redux / Material UI / ESLint / Webpack / PostCSS / jQuery / ...', '<strong>Backend</strong>', 'PEP8 / Faker / MailChimp / Slacker / ...', '그외 관심 : Android JetPack / Realm / Redux Saga']
     }, {
       'date': 'Tools / System',
       'title': '사용 툴 및 시스템 (빈도 순)',
@@ -9460,7 +9460,7 @@ module.exports = {
     '기타 경력 및 개인 프로젝트': [{
       'date': '2017.08 - 현재',
       'title': '마인딩',
-      'contents': ['마음습관 형성 서비스 "마인딩" 개발 및 기술자문<br/><br/>', '- Homepage (<a href="https://minding.today/" target="_blank">Link</a>)', '- PlayStore (<a href="https://play.google.com/store/apps/details?id=today.minding" target="_blank">Link</a>)', '- 프로젝트 초기 설계 및 스택 선정', '- 코드 리뷰 및 기술 자문', '- Stack(Android): Kotlin 100%, RxAndroid, Firebase, AAC, MVVM, Databinding', '- Stack(Web): Django (+ REST Framework), React + Redux, AWS']
+      'contents': ['마음습관 형성 서비스 "마인딩" 개발 및 기술자문<br/><br/>', '- Homepage (<a href="https://minding.today/" target="_blank">Link</a>)', '- PlayStore (<a href="https://play.google.com/store/apps/details?id=today.minding" target="_blank">Link</a>)', '- 프로젝트 초기 설계 및 스택 선정', '- 코드 리뷰 및 기술 자문', '- Stack(Android): Kotlin 100%, RxJava2, Firebase, AAC, MVVM, Databinding', '- Stack(Web): Django (+ REST Framework), React + Redux, AWS']
     }, {
       'date': '2017.02 - 2017.03',
       'title': 'Kotlin Device Intel',

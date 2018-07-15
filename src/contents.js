@@ -59,11 +59,11 @@ module.exports = {
               '- 실기기 테스트를 위한 디바이스 컨트롤러 구축 (FCM)',
               '- 버전 관리 및 트래킹을 위한 스크립트 작성 (Groovy)',
               '- 커스텀 기능을 한 번에 빌드하여 각각 제공 (Groovy)',
-              '- API 기능 동작 테스트앱 구현 (Kotlin, Firebase, Rx)',
-              '- 실사용 테스트앱 구현 (Kotlin, Firebase, Rx)',
+              '- API 기능 동작 테스트앱 구현 (Kotlin, Firebase, RxJava2)',
+              '- 실사용 테스트앱 구현 (Kotlin, Firebase, RxJava2)',
               '- SDK 동작 모니터링 (Kibana)',
               '- 기여도: 90%, 대부분 단독진행',
-              'Stack: Java, Kotlin, Firebase, RxAndroid, ...'
+              'Stack: Java, Kotlin, Firebase, RxJava2, ...'
             ]
           },
           {
@@ -77,7 +77,7 @@ module.exports = {
               '- APN 무료망 전환 프로토콜 연동',
               '- 신호 수신에 따른 망 전환',
               '- 기여도: 100%, 단독진행',
-              'Stack: Kotlin, RxAndroid, Bitsound SDK'
+              'Stack: Kotlin, RxJava2, Bitsound SDK'
             ]
           },
           {
@@ -125,7 +125,7 @@ module.exports = {
           '<strong>Android</strong>',
           'Google: ConstraintLayout / DataBinding / AAC / ...',
           'Firebase: Analytics / Authentication / Cloud Messaging / Firestore / Crashlytics / Remote Config',
-          'Third Party: RxAndroid / Retrofit2 / OkHttp3 / Stetho / Gson / Lottie / Glide / Picasso / Timber / OneSignal / ...',
+          'Third Party: RxJava2 / Retrofit2 / OkHttp3 / Stetho / Gson / Lottie / Glide / Picasso / Timber / OneSignal / ...',
           '<strong>FrontEnd</strong>',
           'React / Redux / Material UI / ESLint / Webpack / PostCSS / jQuery / ...',
           '<strong>Backend</strong>',
@@ -164,7 +164,7 @@ module.exports = {
           '- PlayStore (<a href="https://play.google.com/store/apps/details?id=today.minding" target="_blank">Link</a>)',
           '- 프로젝트 초기 설계 및 스택 선정',
           '- 코드 리뷰 및 기술 자문',
-          '- Stack(Android): Kotlin 100%, RxAndroid, Firebase, AAC, MVVM, Databinding',
+          '- Stack(Android): Kotlin 100%, RxJava2, Firebase, AAC, MVVM, Databinding',
           '- Stack(Web): Django (+ REST Framework), React + Redux, AWS',
         ]
       },
