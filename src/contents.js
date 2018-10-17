@@ -5,21 +5,28 @@ module.exports = {
     dateOfBirth: '1990.11.27',
     email: 'pjhjohn@gmail.com',
     links: [
-      {name: 'Github', href: 'https://github.com/pjhjohn'}
+      {name: 'Github', href: 'https://github.com/pjhjohn'},
+      {name: 'Facebook', href: 'https://www.facebook.com/pjhjohn1127'},
     ]
   },
   introduction: `
-    2011년부터 안드로이드를 메인으로 개발을 계속해왔으며, DAU 300만 이상의 SDK 개발 및 운영 경험이 있습니다.<br/>
-    좋은 협업으로 인한 효율 향상과 빌드 및 배포 자동화 시스템을 포함한 커뮤니케이션 방법을 중요하게 생각합니다.<br/>
-    개개인의 참여가 스스로 이루어질 때 가장 좋은 결과가 나온다고 생각하며, 주도적으로 환경에 적응하는 편입니다.<br/>
-    지식의 접근성을 개인 노력의 부족으로 치부하지 않고 지식을 적극적으로 나누어 전체가 성장하는 것을 중요하게 생각합니다.<br/>
-    문제의 핵심을 해결하는 데 플랫폼이 제약이 되지 않도록, 안드로이드 뿐만 아니라 다양한 플랫폼에서의 개발경험 또한 보유하고 있습니다.<br/>
-    `
+    2011년부터 안드로이드를 메인으로 개발을 계속해왔으며, DAU 300만 이상의 SDK 개발 및 운영 경험이 있습니다.<br>
+    좋은 협업으로 인한 효율 향상과 빌드 및 배포 자동화 시스템을 포함한 커뮤니케이션 방법을 중요하게 생각합니다.<br>
+    개개인의 참여가 스스로 이루어질 때 가장 좋은 결과가 나온다고 생각하며, 주도적으로 환경에 적응하는 편입니다.<br>
+    지식의 접근성을 개인 노력의 부족으로 치부하지 않고 지식을 적극적으로 나누어 전체가 성장하는 것을 중요하게 생각합니다.<br>
+    문제의 핵심을 해결하는 데 플랫폼이 제약이 되지 않도록, 안드로이드 뿐만 아니라 다양한 플랫폼에서의 개발경험 또한 보유하고 있습니다.<br>`
   ,
   summary: {
     '경력 요약': [
       {
-        'date': ['2017.01', '현재'],
+        'date': ['2018.09', '현재'],
+        'title': '(주) 하이퍼커넥트',
+        'contents': [
+          'Azar Android 개발',
+        ]
+      },
+      {
+        'date': ['2017.01', '2018.09'],
         'title': '(주) 사운들리',
         'contents': [
           '메인 - Android SDK 개발',
@@ -38,21 +45,39 @@ module.exports = {
     ]
   },
   detailContents: {
-    '(주) 사운들리': {
-      'date': '2017.01 - 현재',
-      'info': '비가청 음파를 수신하는 Android SDK 를 이용한 다양한 서비스를 진행하는 스타트업',
+    '(주) 하이퍼커넥트': {
+      'date': '2018.09.28 - 현재',
+      'info': '하이퍼커넥트는 자체적인 기술 개발을 중시하고, 혁신 기술을 기반으로 제품을 만들어가는 technology driven company 입니다. WebRTC를 모바일 플랫폼에 최초로 적용하여 탄생한 ‘아자르’를 시작으로, 현재 머신러닝 기반의 이미지·영상분석 등 최신 기술을 빠르게 도입하고 있습니다. 또한, 글로벌 모바일 서비스를 운영하며 얻어진 경험을 바탕으로 다양한 최신 기술을 상용화 가능한 수준으로 고도화하고, 이를 세계 최초로 상용 제품에 적용하는 사례를 만들어가고 있습니다.',
       'service': [
-        '<strong>Bitsound SDK</strong><br/> - Homepage: <a href="http://bitsound.io/" target="_blank">http://bitsound.io/</a> <br/> - Android SDK GitHub: <a href="https://github.com/Soundlly/BitsoundSDK-Android" target="_blank">https://github.com/Soundlly/BitsoundSDK-Android</a><br/> - Android SDK Documents: <a href="https://docs.bitsound.io/docs/android-overview" target="_blank">https://docs.bitsound.io/docs/android-overview</a><br/><br/>',
+        '<strong>Azar</strong> - <a href="https://play.google.com/store/apps/details?id=com.azarlive.android" target="_blank">PlayStore</a><br>Azar allows you to meet someone new at the turn of each swipe.<br>You can easily explore new cultures and people from all over the world.<br>',
       ],
       'project': {
         'project': [
           {
-            'date': '2017.01 - 현재',
+            'date': '2018.09.28 - 현재',
+            'title': 'Azar',
+            'contents': [
+              '<strong>Azar Android 앱 구현 및 유지보수</strong>',
+            ]
+          }
+        ]
+      }
+    },
+    '(주) 사운들리': {
+      'date': '2017.01.02 - 2018.09.21',
+      'info': '비가청 음파를 수신하는 Android SDK 를 이용한 다양한 서비스를 진행하는 스타트업',
+      'service': [
+        '<strong>Bitsound SDK</strong><br> - Homepage: <a href="http://bitsound.io/" target="_blank">http://bitsound.io/</a> <br> - Android SDK GitHub: <a href="https://github.com/Soundlly/BitsoundSDK-Android" target="_blank">https://github.com/Soundlly/BitsoundSDK-Android</a><br> - Android SDK Documents: <a href="https://docs.bitsound.io/docs/android-overview" target="_blank">https://docs.bitsound.io/docs/android-overview</a><br><br>',
+      ],
+      'project': {
+        'project': [
+          {
+            'date': '2017.01 - 2018.09',
             'title': 'Bitsound Android SDK',
             'contents': [
               '<strong>Bitsound Android SDK 구현 및 유지보수</strong>',
               '설계 / 구현 / 테스트 / 배포 / 문서화 / 버전관리 / 이슈 트래킹 / 샘플 및 개발 가이드 / 기술지원 / 성능 개선',
-              '<br/>',
+              '<br>',
               '- Android O 지원',
               '- 기존 파편화된 Soundlly SDK 통합 (멀티 모듈)',
               '- 외부 의존성 최소화',
@@ -72,7 +97,7 @@ module.exports = {
             'contents': [
               '<strong>KT 로드쇼 LTE 시연앱 개발 및 문서화</strong>',
               'UI 전체 / 포그라운드 서비스 동작',
-              '<br/>',
+              '<br>',
               '- Android P 지원(Jetpack)',
               '- APN 무료망 전환 프로토콜 연동',
               '- 신호 수신에 따른 망 전환',
@@ -86,7 +111,7 @@ module.exports = {
             'contents': [
               '<strong>개발자 스터디 활성화를 위한 기술블로그 구현 및 운영</strong>',
               'UI 전체 / 디자인 / 페이스북 공유 / 댓글 (DISQUS)',
-              '<br/>',
+              '<br>',
               '- Jekyll on GitHub Pages',
               '- 기여도: 100%, 단독진행',
               'Stack: Ruby, Jekyll, ...'
@@ -159,7 +184,7 @@ module.exports = {
         'date': '2017.08 - 현재',
         'title': '마인딩',
         'contents': [
-          '마음습관 형성 서비스 "마인딩" 개발 및 기술자문<br/><br/>',
+          '마음습관 형성 서비스 "마인딩" 개발 및 기술자문<br><br>',
           '- Homepage (<a href="https://minding.today/" target="_blank">Link</a>)',
           '- PlayStore (<a href="https://play.google.com/store/apps/details?id=today.minding" target="_blank">Link</a>)',
           '- 프로젝트 초기 설계 및 스택 선정',
@@ -172,7 +197,7 @@ module.exports = {
         'date': '2017.02 - 2017.03',
         'title': 'Kotlin Device Intel',
         'contents': [
-          '테스트용 단말의 모델명, OS 버전 등 여러 정보를 쉽게 보여주는 앱<br/><br/>',
+          '테스트용 단말의 모델명, OS 버전 등 여러 정보를 쉽게 보여주는 앱<br><br>',
           '- PlayStore (<a href="https://play.google.com/store/apps/details?id=io.pjhjohn.kotlin.deviceintel" target="_blank">Link</a>)',
           '- GitHub (<a href="https://github.com/pjhjohn/kotlin-device-intel" target="_blank">Link</a>)',
           '- Open Source (1 Contributor)'
@@ -182,7 +207,7 @@ module.exports = {
         'date': '2016.07 - 2016.11',
         'title': '삼천원',
         'contents': [
-          '문화예술 플랫폼 "삼천원" 개발<br/><br/>',
+          '문화예술 플랫폼 "삼천원" 개발<br><br>',
           '- 웹사이트 (<a href="https://3000won.com/" target="_blank">Link</a>)',
           '- 프로젝트 설계 및 팀 리딩',
           '- 기여도: 60%, 4인 개발 (기간 범위 기준)',
@@ -194,7 +219,7 @@ module.exports = {
         'date': '2015.04 - 2016.01',
         'title': 'JSONPlaceholder Client',
         'contents': [
-          'React & Redux REST API Boilerplate<br/><br/>',
+          'React & Redux REST API Boilerplate<br><br>',
           '- GitHub (<a href="https://github.com/pjhjohn/jsonplaceholder-client" target="_blank">Link</a>)',
           '- JSONPlaceholder Fake REST API 기반(<a href="http://jsonplaceholder.typicode.com/" target="_blank">Link</a>)',
           '- Open Source (4 Contributors)'
@@ -204,7 +229,7 @@ module.exports = {
         'date': '2015.04 - 2016.01',
         'title': 'Papyruth',
         'contents': [
-          '서울대학교 강의평가 서비스<br/><br/>',
+          '서울대학교 강의평가 서비스<br><br>',
           '- <del>PlayStore (<a href="https://play.google.com/store/apps/details?id=com.papyruth.android" target="_blank">Link</a>): 서비스 종료</del>',
           '- GitHub (<a href="https://github.com/pjhjohn/papyruth-android" target="_blank">Link</a>)',
           '- 안드로이드 프로젝트 구현',

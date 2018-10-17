@@ -1,3 +1,8 @@
+# Disclaimer
+
+This project is forked from https://github.com/KimWooHyun/resume.
+All documents below is from the original project.
+
 # Vue.js Resume
 
 > resume template
