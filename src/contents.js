@@ -7,14 +7,17 @@ module.exports = {
     links: [
       {name: 'Github', href: 'https://github.com/pjhjohn'},
       {name: 'Facebook', href: 'https://www.facebook.com/pjhjohn1127'},
+      {name: 'SpeakerDeck', href: 'https://speakerdeck.com/pjhjohn'},
     ]
   },
   introduction: `
-    2011년부터 안드로이드를 메인으로 개발을 계속해왔으며, DAU 300만 이상의 SDK 개발 및 운영 경험이 있습니다.<br>
-    좋은 협업으로 인한 효율 향상과 빌드 및 배포 자동화 시스템을 포함한 커뮤니케이션 방법을 중요하게 생각합니다.<br>
-    개개인의 참여가 스스로 이루어질 때 가장 좋은 결과가 나온다고 생각하며, 주도적으로 환경에 적응하는 편입니다.<br>
-    지식의 접근성을 개인 노력의 부족으로 치부하지 않고 지식을 적극적으로 나누어 전체가 성장하는 것을 중요하게 생각합니다.<br>
-    문제의 핵심을 해결하는 데 플랫폼이 제약이 되지 않도록, 안드로이드 뿐만 아니라 다양한 플랫폼에서의 개발경험 또한 보유하고 있습니다.<br>`
+    2011년 부터 안드로이드를 메인으로 개발을 계속해 오고 있습니다.<br>
+    DAU 300만 이상의 SDK 및 1억 이상 다운로드, 20개 이상 언어로 서비스 중인 APP 개발 경험이 있습니다.<br>
+    치밀한 협업을 통한 팀의 성장을 중요하게 생각하며, 협업의 질을 높이기 위한 다양한 자동화를 설계하고 실천합니다.<br>
+    자발적인 참여가 모일 때 최고의 아웃풋이 나온다고 생각하며, 이를 위해 먼저 목표를 설정하고 커뮤니케이션합니다.<br>
+    주도적으로 환경에 적응하되 맹목적으로 순응하지는 않습니다. 더 나은 상태를 위해 끊임없이 고민하고 실험합니다.<br>
+    문제의 핵심에 집중해서 비즈니스 임팩트를 내는 것과 지속적인 효과가 발생하는 시스템을 설계하는 것을 좋아합니다.<br>
+    단편적인 지식전달 보다는 잘 듣고, 함께 고민하면서 좋은 질문을 던지는 것을 지향합니다.<br>`
   ,
   summary: {
     '경력 요약': [
@@ -22,7 +25,8 @@ module.exports = {
         'date': ['2018.09', '현재'],
         'title': '(주) 하이퍼커넥트',
         'contents': [
-          'Azar Android 개발',
+          '메인 - Azar Android 개발',
+          '서브 - Developer Relations'
         ]
       },
       {
@@ -33,23 +37,14 @@ module.exports = {
           '서브 - Productivity Admin'
         ]
       },
-      {
-        'date': ['2015.03', '2017.02'],
-        'title': '서울대학교 운동연구실',
-        'contents': [
-          '<strong>컴퓨터공학 석사</strong>',
-          '메인 - Drone Trajectory Optimization',
-          '서브 - Hubo Controller'
-        ]
-      }
     ]
   },
   detailContents: {
     '(주) 하이퍼커넥트': {
       'date': '2018.09.28 - 현재',
-      'info': '하이퍼커넥트는 자체적인 기술 개발을 중시하고, 혁신 기술을 기반으로 제품을 만들어가는 technology driven company 입니다. WebRTC를 모바일 플랫폼에 최초로 적용하여 탄생한 ‘아자르’를 시작으로, 현재 머신러닝 기반의 이미지·영상분석 등 최신 기술을 빠르게 도입하고 있습니다. 또한, 글로벌 모바일 서비스를 운영하며 얻어진 경험을 바탕으로 다양한 최신 기술을 상용화 가능한 수준으로 고도화하고, 이를 세계 최초로 상용 제품에 적용하는 사례를 만들어가고 있습니다.',
+      'info': '자체 기술 개발을 중시하고, 혁신 기술을 기반으로 제품을 만들어가는 기술 중심 회사. WebRTC를 모바일 플랫폼에 최초로 적용하여 탄생한 ‘아자르’, 스트리밍 서비스로 가파르게 성장 중인 ‘하쿠나’와 함께 지속적인 성장 동력을 발굴하고 있습니다.',
       'service': [
-        '<strong>Azar</strong> - <a href="https://play.google.com/store/apps/details?id=com.azarlive.android" target="_blank">PlayStore</a><br>Azar allows you to meet someone new at the turn of each swipe.<br>You can easily explore new cultures and people from all over the world.<br>',
+        '<strong>Azar</strong> - <a href="https://play.google.com/store/apps/details?id=com.azarlive.android" target="_blank">PlayStore</a><br>Azar allows you to talk and make friends with people from over 190 countries.<br>',
       ],
       'project': {
         'project': [
@@ -58,6 +53,40 @@ module.exports = {
             'title': 'Azar',
             'contents': [
               '<strong>Azar Android 앱 구현 및 유지보수</strong>',
+              'Feature 개발 / I18N / L10N / A11Y / Multi Module / ...',
+              '<br>',
+              '<strong>Extras</strong>',
+              '리소스 관리',
+              '- Drawable Validator by Density',
+              '- String Validator by Translation',
+              '- Localized Number Formatter',
+              '디자인 시스템 설계 및 구현',
+              '- Apply Color Palette',
+              '- Rollout Vector Drawables',
+              '- Rollout Ripple Effect',
+              '- Rollout Design Components',
+              '- Rollout DarkMode',
+            ]
+          },
+          {
+            'date': '2019.07 - 현재',
+            'title': 'Developer Relations',
+            'contents': [
+              '<strong>사내/외 개발 문화 고안</strong>',
+              '- 기술 블로그 담당 (<a href="https://hyperconnect.github.io/" target="_blank">Link</a>)',
+              '- 내부 개발자 밋업 지원',
+              '- 내부 개발자 스터디 지원',
+              '- 외부 개발자 행사 컨텐츠 지원',
+              '- Notion for Developers',
+            ]
+          },
+          {
+            'date': '2019.09 - 현재',
+            'title': 'Notion Advisor',
+            'contents': [
+              '<strong>Notion 도입 지원</strong>',
+              '- Merge Workspaces for Pricing',
+              '- Notion as Companywide Knowledge Base',
             ]
           }
         ]
@@ -67,7 +96,7 @@ module.exports = {
       'date': '2017.01.02 - 2018.09.21',
       'info': '비가청 음파를 수신하는 Android SDK 를 이용한 다양한 서비스를 진행하는 스타트업',
       'service': [
-        '<strong>Bitsound SDK</strong><br> - Homepage: <a href="http://bitsound.io/" target="_blank">http://bitsound.io/</a> <br> - Android SDK GitHub: <a href="https://github.com/Soundlly/BitsoundSDK-Android" target="_blank">https://github.com/Soundlly/BitsoundSDK-Android</a><br> - Android SDK Documents: <a href="https://docs.bitsound.io/docs/android-overview" target="_blank">https://docs.bitsound.io/docs/android-overview</a><br><br>',
+        '<strong>Bitsound SDK (Sadly, no longer available)</strong><br> - Homepage: <del><a href="http://bitsound.io/" target="_blank">http://bitsound.io/</a></del> <br> - Android SDK GitHub: <del><a href="https://github.com/Soundlly/BitsoundSDK-Android" target="_blank">https://github.com/Soundlly/BitsoundSDK-Android</a></del><br> - Android SDK Documents: <del><a href="https://docs.bitsound.io/docs/android-overview" target="_blank">https://docs.bitsound.io/docs/android-overview</a></del><br><br>',
       ],
       'project': {
         'project': [
@@ -125,79 +154,51 @@ module.exports = {
     '상세 역량': [
       {
         'date': 'Languages',
-        'title': '사용 언어 (숙련도 순)',
+        'title': '사용 언어',
         'contents': [
-          '<strong>상</strong> : Kotlin / Java / Python / JavaScript(ES6)',
-          '<strong>중</strong> : HTML / CSS / SASS / Ruby / C / C++',
-          '<strong>하</strong> : Ocaml / Scheme / Action Script',
-          '그외 관심 : Scala / TypeScript / Rust',
+          '<strong>Kotlin / Java</strong> / Python / JavaScript(ES6) / Ruby / HTML / CSS / C / C++ ...',
         ]
       },
       {
         'date': 'Frameworks',
-        'title': '사용 프레임워크 (숙련도 순)',
+        'title': '사용 프레임워크',
         'contents': [
-          '<strong>상</strong> : Android',
-          '<strong>중</strong> : Django / Rails / Jekyll',
-          '<strong>하</strong> : Processing',
-          '그외 관심 : TensorFlow',
-        ]
-      },
-      {
-        'date': 'Libraries',
-        'title': '사용 라이브러리 (영역별 숙련도 순)',
-        'contents': [
-          '<strong>Android</strong>',
-          'Google: ConstraintLayout / DataBinding / AAC / ...',
-          'Firebase: Analytics / Authentication / Cloud Messaging / Firestore / Crashlytics / Remote Config',
-          'Third Party: RxJava2 / Retrofit2 / OkHttp3 / Stetho / Gson / Lottie / Glide / Picasso / Timber / OneSignal / ...',
-          '<strong>FrontEnd</strong>',
-          'React / Redux / Material UI / ESLint / Webpack / PostCSS / jQuery / ...',
-          '<strong>Backend</strong>',
-          'PEP8 / Faker / MailChimp / Slacker / ...',
-          '그외 관심 : Android JetPack / Realm / Redux Saga'
+          '<strong>Android</strong> / Django / Rails / React / Jekyll / Gatsby / Processing / ...',
         ]
       },
       {
         'date': 'Tools / System',
-        'title': '사용 툴 및 시스템 (빈도 순)',
+        'title': '툴 및 시스템 (빈도 순)',
         'contents': [
-          '<strong>상</strong> : Git(GitKraken) / GitHub / AndroidStudio / PyCharm / Slack / Asana / Confluence / Papaly / ...',
-          '<strong>중</strong> : Kibana / Zeplin / Sublime Text / Atom / AWS / Circle CI / Notion / ...',
-          '<strong>하</strong> : IntelliJ / WebStorm / Postman / Vim / Jenkins / ...',
-          '그외 관심 : JIRA / VSCode / Docker / Additor',
+          '<strong>AndroidStudio / Slack / Jira / Notion / Confluence / Zeplin</strong> / VSCode / Sublime Text / PyCharm / WebStorm / Asana / Figma / Jenkins / Circle CI / ...'
         ]
       },
       {
         'date': 'Design',
-        'title': '사용 디자인 (개발 숙련도 순)',
+        'title': '디자인 (관심도 순)',
         'contents': [
-          '<strong>상</strong> : Material Design (Android) / Bootstrap 3',
-          '<strong>중</strong> : Material UI (React) / Materialize.css (CSS)',
-          '<strong>하</strong> : Atlassian / Spectre',
-          '그외 관심 : Typography / Editorial Design',
+          '<strong>Design System</strong> / Material Design / Typography / Branding / ...',
         ]
       },
     ],
     '기타 경력 및 개인 프로젝트': [
       {
-        'date': '2017.08 - 현재',
+        'date': '2017.08 - 2019.04',
         'title': '마인딩',
         'contents': [
-          '마음습관 형성 서비스 "마인딩" 개발 및 기술자문<br><br>',
-          '- Homepage (<a href="https://minding.today/" target="_blank">Link</a>)',
-          '- PlayStore (<a href="https://play.google.com/store/apps/details?id=today.minding" target="_blank">Link</a>)',
-          '- 프로젝트 초기 설계 및 스택 선정',
+          '마음습관 형성 서비스 "마인딩" 개발 및 기술 자문<br><br>',
+          '- Links: <a href="https://minding.today/" target="_blank">Web</a> / <a href="https://play.google.com/store/apps/details?id=today.minding" target="_blank">Android</a> / <a href="https://apps.apple.com/kr/app/id1447465396" target="_blank">iOS</a>',
+          '- 프로젝트 기초 설계 및 스택 선정',
           '- 코드 리뷰 및 기술 자문',
-          '- Stack(Android): Kotlin 100%, RxJava2, Firebase, AAC, MVVM, Databinding',
           '- Stack(Web): Django (+ REST Framework), React + Redux, AWS',
+          '- Stack(Android): Kotlin, RxJava2, Firebase, AAC, MVVM, Databinding, Koin, LiveData, ...',
         ]
       },
       {
         'date': '2017.02 - 2017.03',
         'title': 'Kotlin Device Intel',
         'contents': [
-          '테스트용 단말의 모델명, OS 버전 등 여러 정보를 쉽게 보여주는 앱<br><br>',
+          '단말의 모델명, OS 버전 등 여러 정보를 쉽게 보여주는 앱<br><br>',
           '- PlayStore (<a href="https://play.google.com/store/apps/details?id=io.pjhjohn.kotlin.deviceintel" target="_blank">Link</a>)',
           '- GitHub (<a href="https://github.com/pjhjohn/kotlin-device-intel" target="_blank">Link</a>)',
           '- Open Source (1 Contributor)'
@@ -239,19 +240,21 @@ module.exports = {
     ],
     '개인 활동': [
       {
+        'date': '2019.08.04',
+        'title': 'Android Conference Speaker',
+        'contents': [
+          'Android Conference "우리 회사는 이렇게 개발해요" 발표',
+          '- 행사(<a href="https://event-us.kr/ted/event/8421" target="_blank">Link</a>)',
+          '- 발표자료(<a href="https://speakerdeck.com/pjhjohn/dandanhan-geulrobeol-seobiseu-mandeulgi" target="_blank">Link</a>)'
+        ]
+      },
+      {
         'date': '2018.02.02',
         'title': 'GDG Korea Android LT',
         'contents': [
           'GDG Korea Android Lightening Talk 발표',
           '- 행사(<a href="https://sites.google.com/view/gdg-and-2018-lt/" target="_blank">Link</a>)',
           '- 발표자료(<a href="https://speakerdeck.com/pjhjohn/sdk-gaebaljaro-salanamneun-beob" target="_blank">Link</a>)'
-        ]
-      },
-      {
-        'date': '2017, 2018',
-        'title': 'Google I/O Extended',
-        'contents': [
-          '2017, 2018 스태프'
         ]
       },
       {
@@ -264,24 +267,22 @@ module.exports = {
         ]
       },
       {
-        'date': '2016.09 - 현재',
+        'date': '2016.09 - 2019.01',
         'title': '1일 1인디',
         'contents': [
           '인디 뮤지션을 알리기 위한 페이스북 페이지 운영',
           '- 페이스북 페이지(<a href="https://www.facebook.com/indieperday/" target="_blank">Link</a>)',
-          '- 아티스트 / 레이블 승인 후 페이지에 게시'
+          '- 아티스트 / 레이블 승인 후 페이지에 참조하여 게시',
         ]
       },
       {
         'date': '2014.04 - 현재',
         'title': '멋쟁이 사자처럼',
         'contents': [
-          '2기 : 서울대&연세대 튜터',
-          '&nbsp;&nbsp;- 전체 커리큘럼 및 수업자료 제작',
+          '2기 : 서울대&연세대 튜터 - 자체 커리큘럼 제작, 수업 진행',
           '3기 : 중앙 운영진',
-          '4기 : 서울대학교 운영진',
-          '&nbsp;&nbsp;- 자체 커리큘럼 및 수업자료 제작, 수업 진행',
-          '5기, 6기 : 서울대학교 운영진 고문',
+          '4기 : 서울대학교 운영진 - 자체 커리큘럼 제작, 수업 진행',
+          '5기 ~ : 서울대학교 운영진 고문',
         ]
       }
     ],
