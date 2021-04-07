@@ -8,8 +8,8 @@
           <div>
             <p>{{transformCareer}}</p>
             <p>{{contents.profile.dateOfBirth}}</p>
-            <a :href="transformMailTo">{{contents.profile.email}}</a>
-            <p v-for="link of contents.profile.links" :key="link.id">{{link.name}} - <a :href="link.href">{{link.href}}</a></p>
+            <p><a :href="transformMailTo">{{contents.profile.email}}</a></p>
+            <a v-for="link of contents.profile.links" :key="link.id" :href="link.href">{{link.name}} </a>
           </div>
         </div>
       </section>

@@ -1,13 +1,13 @@
 module.exports = {
   profile: {
-    name: '박준호 (JoonHo Park)',
+    name: '최정인 (JungIn Choi)',
     description: 'Android Developer',
-    dateOfBirth: '1990.11.27',
-    email: 'pjhjohn@gmail.com',
+    dateOfBirth: '1996.7.7',
+    email: 'luvimperfection@gmail.com',
     links: [
-      {name: 'Github', href: 'https://github.com/pjhjohn'},
-      {name: 'Facebook', href: 'https://www.facebook.com/pjhjohn1127'},
-      {name: 'SpeakerDeck', href: 'https://speakerdeck.com/pjhjohn'},
+      {name: 'Github', href: 'https://github.com/luvimperfection'},
+      {name: 'Instagram', href: 'https://www.instagram.com/jc_jungin_choi/'},
+      {name: 'Tistory', href: 'https://jin-choi.tistory.com/'},
     ]
   },
   introduction: `
@@ -17,7 +17,10 @@ module.exports = {
     자발적인 참여가 모일 때 최고의 아웃풋이 나온다고 생각하며, 이를 위해 먼저 목표를 설정하고 커뮤니케이션합니다.<br>
     주도적으로 환경에 적응하되 맹목적으로 순응하지는 않습니다. 더 나은 상태를 위해 끊임없이 고민하고 실험합니다.<br>
     문제의 핵심에 집중해서 비즈니스 임팩트를 내는 것과 지속적인 효과가 발생하는 시스템을 설계하는 것을 좋아합니다.<br>
-    단편적인 지식전달 보다는 잘 듣고, 함께 고민하면서 좋은 질문을 던지는 것을 지향합니다.<br>`
+    단편적인 지식전달 보다는 잘 듣고, 함께 고민하면서 좋은 질문을 던지는 것을 지향합니다.<br>
+    ...
+    라고 쓸 수 있으면 좋겠다! ㅎ 
+    `
   ,
   summary: {
     '경력 요약': [
