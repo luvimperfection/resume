@@ -154,21 +154,21 @@ module.exports = {
         'date': 'Languages',
         'title': '사용 언어',
         'contents': [
-          '<strong>Kotlin / Java</strong> / Python / JavaScript(ES6) / C / C++ ...',
+          '<strong>Kotlin / Java</strong> / Python / JavaScript(ES6) / Ruby / HTML / CSS / C / C++ ...',
         ]
       },
       {
         'date': 'Frameworks',
         'title': '사용 프레임워크',
         'contents': [
-          '<strong>Android</strong> / Django / React / HTML / CSS ...',
+          '<strong>Android</strong> / Django / Rails / React / Jekyll / Gatsby / Processing / ...',
         ]
       },
       {
         'date': 'Tools / System',
         'title': '툴 및 시스템 (빈도 순)',
         'contents': [
-          '<strong>AndroidStudio / Slack / Notion / Asana / Figma</strong>  ...'
+          '<strong>AndroidStudio / Slack / Jira / Notion / Confluence / Zeplin</strong> / VSCode / Sublime Text / PyCharm / WebStorm / Asana / Figma / Jenkins / Circle CI / ...'
         ]
       },
       {
@@ -180,37 +180,124 @@ module.exports = {
       },
     ],
     '기타 경력 및 개인 프로젝트': [
-       {
-        'date': '2018.11-2018.12',
-        'title': '클린 모드',
+      {
+        'date': '2017.08 - 2019.04',
+        'title': '마인딩',
         'contents': [
-          '기사 내용만 깔끔하게 보여주는 읽기모드를 지원하는 확장앱<br><br>',
-          '- WhaleStore (<a href="https://store.whale.naver.com/detail/fcgonohilehipjoehihinppmfefepbdh">Link</a>)',
-          '- 자바스크립트 프로젝트',
+          '마음습관 형성 서비스 "마인딩" 개발 및 기술 자문<br><br>',
+          '- Links: <a href="https://minding.today/" target="_blank">Web</a> / <a href="https://play.google.com/store/apps/details?id=today.minding" target="_blank">Android</a> / <a href="https://apps.apple.com/kr/app/id1447465396" target="_blank">iOS</a>',
+          '- 프로젝트 기초 설계 및 스택 선정',
+          '- 코드 리뷰 및 기술 자문',
+          '- Stack(Web): Django (+ REST Framework), React + Redux, AWS',
+          '- Stack(Android): Kotlin, RxJava2, Firebase, AAC, MVVM, Databinding, Koin, LiveData, ...',
+        ]
+      },
+      {
+        'date': '2017.02 - 2017.03',
+        'title': 'Kotlin Device Intel',
+        'contents': [
+          '단말의 모델명, OS 버전 등 여러 정보를 쉽게 보여주는 앱<br><br>',
+          '- PlayStore (<a href="https://play.google.com/store/apps/details?id=io.pjhjohn.kotlin.deviceintel" target="_blank">Link</a>)',
+          '- GitHub (<a href="https://github.com/pjhjohn/kotlin-device-intel" target="_blank">Link</a>)',
+          '- Open Source (1 Contributor)'
+        ]
+      },
+      {
+        'date': '2016.07 - 2016.11',
+        'title': '삼천원',
+        'contents': [
+          '문화예술 플랫폼 "삼천원" 개발<br><br>',
+          '- 웹사이트 (<a href="https://3000won.com/" target="_blank">Link</a>)',
+          '- 프로젝트 설계 및 팀 리딩',
+          '- 기여도: 60%, 4인 개발 (기간 범위 기준)',
+          '- Stack(front-end): React + Redux on Express',
+          '- Stack(back-end): Django REST Framework'
+        ]
+      },
+      {
+        'date': '2015.04 - 2016.01',
+        'title': 'JSONPlaceholder Client',
+        'contents': [
+          'React & Redux REST API Boilerplate<br><br>',
+          '- GitHub (<a href="https://github.com/pjhjohn/jsonplaceholder-client" target="_blank">Link</a>)',
+          '- JSONPlaceholder Fake REST API 기반(<a href="http://jsonplaceholder.typicode.com/" target="_blank">Link</a>)',
+          '- Open Source (4 Contributors)'
+        ]
+      },
+      {
+        'date': '2015.04 - 2016.01',
+        'title': 'Papyruth',
+        'contents': [
+          '서울대학교 강의평가 서비스<br><br>',
+          '- <del>PlayStore (<a href="https://play.google.com/store/apps/details?id=com.papyruth.android" target="_blank">Link</a>): 서비스 종료</del>',
+          '- GitHub (<a href="https://github.com/pjhjohn/papyruth-android" target="_blank">Link</a>)',
+          '- 안드로이드 프로젝트 구현',
+          '- 기여도: 60%, 2인 개발'
         ]
       }
     ],
     '개인 활동': [
-       {
-        'date': '2018.05-',
-        'title': '에티 ETI',
+      {
+        'date': '2019.08.04',
+        'title': 'Android Conference Speaker',
         'contents': [
-          '국내외 기술동향 & 스타트업 뉴스레터',
-          '- Facebook (<a href="https://www.facebook.com/etinow/">Link</a>)',
-          '- Blog (<a href="https://etinow.me/"></a>)',
-          '- Press (<a href="https://www.snu.ac.kr/snunow/snu_story?md=v&bbsidx=125393">Link</a>)'
-	]
+          'Android Conference "우리 회사는 이렇게 개발해요" 발표',
+          '- 행사(<a href="https://event-us.kr/ted/event/8421" target="_blank">Link</a>)',
+          '- 발표자료(<a href="https://speakerdeck.com/pjhjohn/dandanhan-geulrobeol-seobiseu-mandeulgi" target="_blank">Link</a>)'
+        ]
+      },
+      {
+        'date': '2018.02.02',
+        'title': 'GDG Korea Android LT',
+        'contents': [
+          'GDG Korea Android Lightening Talk 발표',
+          '- 행사(<a href="https://sites.google.com/view/gdg-and-2018-lt/" target="_blank">Link</a>)',
+          '- 발표자료(<a href="https://speakerdeck.com/pjhjohn/sdk-gaebaljaro-salanamneun-beob" target="_blank">Link</a>)'
+        ]
+      },
+      {
+        'date': '2016.11',
+        'title': '시티즌맵',
+        'contents': [
+          '집회 예정 장소의 위치정보 및 현재상황 제보 플랫폼',
+          '- 구글 검색(<a href="https://goo.gl/dsXpxt" target="_blank">Link</a>)',
+          '- 개발 참여',
+        ]
+      },
+      {
+        'date': '2016.09 - 2019.01',
+        'title': '1일 1인디',
+        'contents': [
+          '인디 뮤지션을 알리기 위한 페이스북 페이지 운영',
+          '- 페이스북 페이지(<a href="https://www.facebook.com/indieperday/" target="_blank">Link</a>)',
+          '- 아티스트 / 레이블 승인 후 페이지에 참조하여 게시',
+        ]
+      },
+      {
+        'date': '2014.04 - 현재',
+        'title': '멋쟁이 사자처럼',
+        'contents': [
+          '2기 : 서울대&연세대 튜터 - 자체 커리큘럼 제작, 수업 진행',
+          '3기 : 중앙 운영진',
+          '4기 : 서울대학교 운영진 - 자체 커리큘럼 제작, 수업 진행',
+          '5기 ~ : 서울대학교 운영진 고문',
+        ]
       }
     ],
     '학력 사항': [
       {
-        'date': '2015 - 2020',
-        'title': '서울대학교 학사',
-        'contents': ['산업공학 주전공', '컴퓨터공학 복수전공']
+        'date': '2015 - 2017',
+        'title': '서울대학교 석사',
+        'contents': ['운동연구실']
       },
       {
-        'date': '2012 - 2014',
-        'title': '하나고등학교',
+        'date': '2009 - 2015',
+        'title': '서울대학교 학사',
+        'contents': ['컴퓨터공학 주전공', '전기공학 부전공']
+      },
+      {
+        'date': '2006 - 2009',
+        'title': '상문고등학교',
         'contents': ['-']
       }
     ]
